@@ -331,6 +331,7 @@
   .select-menu-tab {
     display: contents !important;
   }
+  .pagehead-tabs-item,
   .tabnav-tabs a,
   .tabnav-tabs span:not(.Counter),
   .reponav-item,
@@ -351,6 +352,7 @@
     padding: 4px 6px !important;
     min-height: 26px;
   }
+  .pagehead-tabs-item.selected,
   .tabnav-tabs a.selected,
   .tabnav-tabs span:not(.Counter).selected,
   .reponav-item.selected,
