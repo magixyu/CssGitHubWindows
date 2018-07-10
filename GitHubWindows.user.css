@@ -331,6 +331,7 @@
   .select-menu-tab {
     display: contents !important;
   }
+  .UnderlineNav-item,
   .pagehead-tabs-item,
   .tabnav-tabs a,
   .tabnav-tabs span:not(.Counter),
@@ -352,6 +353,7 @@
     padding: 4px 6px !important;
     min-height: 26px;
   }
+  .UnderlineNav-item.selected,
   .pagehead-tabs-item.selected,
   .tabnav-tabs a.selected,
   .tabnav-tabs span:not(.Counter).selected,
@@ -633,4 +635,9 @@
   .octicon-graph { background: var(--image-graph) !important; }
   .octicon-gear { background: var(--image-config) !important; }
   .octicon-repo { background: var(--image-folder-documents) !important; }
+  
+  .user-profile-nav {
+    background: var(--color-button-face) !important;
+    border-bottom: solid 1px #d1d5da;
+  }
 }
